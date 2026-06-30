@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
 <head>
@@ -94,7 +95,7 @@
             <a href="#paket" class="hover:text-primary transition">Paket Harga</a>
         </div>
         <a href="#booking" class="bg-primary text-white px-8 py-3 rounded-full text-sm font-bold hover:bg-primaryHover transition shadow-lg shadow-cyan-500/30">
-            Book Now
+            Pesan Sekarang
         </a>
     </nav>
 
@@ -131,7 +132,7 @@
                     <div class="flex-1">
                         <p class="font-semibold text-dark text-lg md:text-xl leading-snug">Pelanggan adalah bagian terpenting dalam bisnis kami.</p>
                         <a href="#info" class="text-xs font-bold mt-6 inline-flex items-center text-gray-500 hover:text-primary transition group">
-                            Read More <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                            Baca Selengkapnya <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </a>
                     </div>
                     <!-- Small inner image matching reference -->
@@ -146,7 +147,7 @@
                     <div class="flex items-end gap-6 border-t border-gray-100 pt-4">
                         <div class="text-6xl font-bold text-dark font-bebas leading-none tracking-wider">4.8</div>
                         <div class="pb-1">
-                            <p class="text-[10px] font-bold text-dark uppercase tracking-widest mb-1">150k happy guests</p>
+                            <p class="text-[10px] font-bold text-dark uppercase tracking-widest mb-1">150k Pelanggan Bahagia</p>
                             <div class="flex text-primary text-sm">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
                             </div>
@@ -210,8 +211,8 @@
     <div class="max-w-[1400px] mx-auto px-6 lg:px-12 mb-20" data-aos="fade-up">
         <div class="bg-gray-50 rounded-[2rem] p-10 flex flex-col md:flex-row items-center justify-around text-center divide-y md:divide-y-0 md:divide-x divide-gray-200 shadow-sm border border-gray-100">
             <div class="p-6 w-full">
-                <div class="text-4xl font-bold text-dark font-sans mb-2 tracking-tight">Setiap Paket</div>
-                <div class="text-sm font-medium text-gray-500 uppercase tracking-widest">Cuci Body + Vacuum + Semir Ban</div>
+                <div class="text-4xl font-bold text-dark font-sans mb-2 tracking-tight">Kami Juga Menyediakan</div>
+                <div class="text-sm font-medium text-gray-500 uppercase tracking-widest">Layanan Kebersihan Lainnya</div>
             </div>
             <div class="p-6 w-full">
                 <div class="text-4xl font-bold text-dark font-sans mb-2 tracking-tight">0811-860-638</div>
@@ -220,11 +221,11 @@
         </div>
     </div>
 
-    <!-- Packages Section ("Chose your Package") -->
+    <!-- Packages Section ("Cuci Mobil") -->
     <section id="paket" class="px-6 lg:px-12 py-10 bg-white max-w-[1400px] mx-auto">
         <div class="mb-12" data-aos="fade-right">
             <p class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-2">Penawaran Kami</p>
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-dark tracking-tight">Pilih Paket Anda</h2>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-dark tracking-tight">Cuci Mobil</h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -232,49 +233,179 @@
             <!-- Package 1 -->
             <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="0">
                 <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-car-side"></i></div>
-                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">SMALL CAR</h3>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MOBIL KECIL</h3>
                 <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Agya, Brio, Ayla, dll.</p>
-                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">70k</div>
-                <button onclick="document.getElementById('pilih_paket').value='Small Car (70k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Book Now</button>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">55k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Mobil Kecil (55k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
             </div>
 
             <!-- Package 2 -->
             <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="100">
                 <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-car"></i></div>
-                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">CAR</h3>
-                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Yaris, Jazz, Swift, dll.</p>
-                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">75k</div>
-                <button onclick="document.getElementById('pilih_paket').value='Car (75k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Book Now</button>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MOBIL</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Avanza, Yaris, Jazz, Swift, dll.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">65k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Mobil (65k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
             </div>
 
             <!-- Package 3 -->
             <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="200">
                 <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-car-rear"></i></div>
-                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MEDIUM CAR</h3>
-                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Avanza, Xpander, HR-V, dll.</p>
-                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">80k</div>
-                <button onclick="document.getElementById('pilih_paket').value='Medium Car (80k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Book Now</button>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MOBIL SEDANG</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Xpander, HR-V, dll.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">75k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Mobil Sedang (75k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
             </div>
 
             <!-- Package 4 -->
             <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="300">
                 <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-truck-pickup"></i></div>
-                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">LARGE CAR</h3>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MOBIL BESAR</h3>
                 <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Innova, Fortuner, Pajero, dll.</p>
-                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">90k</div>
-                <button onclick="document.getElementById('pilih_paket').value='Large Car (90k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Book Now</button>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">85k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Mobil Besar (85k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
             </div>
 
             <!-- Package 5 -->
             <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100 relative" data-aos="fade-up" data-aos-delay="400">
                 <div class="absolute top-0 right-0 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl rounded-tr-[2rem] uppercase">Premium</div>
                 <div class="text-primary group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-gem"></i></div>
-                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">LUXURY CAR</h3>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MOBIL MEWAH</h3>
                 <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Alphard, Vellfire, dll.</p>
-                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">100k</div>
-                <button onclick="document.getElementById('pilih_paket').value='Luxury Car (100k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-primary bg-primary text-white text-sm font-bold transition uppercase tracking-wider">Book Now</button>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">95k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Mobil Mewah (95k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-primary bg-primary text-white text-sm font-bold transition uppercase tracking-wider">Pesan</button>
             </div>
 
+        </div>
+    </section>
+
+    <!-- Packages Section ("Cuci Motor") -->
+    <section id="paket" class="px-6 lg:px-12 py-10 bg-white max-w-[1400px] mx-auto">
+        <div class="mb-12" data-aos="fade-right">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-dark tracking-tight">Cuci Motor</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            
+            <!-- Package 1 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="0">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-bicycle"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MOTOR KECIL</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">≤150cc.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">20k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Motor Kecil (20k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+
+            <!-- Package 2 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-motorcycle"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">MOTOR BESAR</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">≥250cc.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">35k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Motor Besar (35k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Packages Section ("Layanan Kebersihan Lainnya") -->
+    <section id="paket" class="px-6 lg:px-12 py-10 bg-white max-w-[1400px] mx-auto">
+        <div class="mb-12" data-aos="fade-right">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-dark tracking-tight">Layanan Kebersihan Lainnya</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            
+            <!-- Package 1 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="0">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-couch"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">SOFA KECIL</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Bahan Kulit Atau Bludru.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">50</div>
+                <button onclick="document.getElementById('pilih_paket').value='Sofa Kecil (50k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
+            <!-- Package 2 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="0">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-couch"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">SOFA BESAR</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Bahan Kulit Atau Bludru.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">80k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Sofa Besar (80k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+
+            <!-- Package 3 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-chair"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KURSI</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Bahan Kulit Atau Bludru.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">45k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Kursi (45k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+
+            <!-- Package 4 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-layer-group"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KARPET KECIL</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Ukuran ± 40 × 60 cm sampai 80 × 120 cm.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">70k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Karpet Kecil (70k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+
+            <!-- Package 5 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-layer-group"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KARPET SEDANG</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Ukuruan ± 120 × 160 cm sampai 160 × 230 cm.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">90k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Karpet Sedang (90k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
+            <!-- Package 6 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-layer-group"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KARPET BESAR</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Ukuran ≥ 200 × 300 cm.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">110k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Karpet Besar (110k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
+            <!-- Package 7 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-bed"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KASUR KECIL</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Ukuran 90.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">75k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Kasur Kecil (75k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
+            <!-- Package 8 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-bed"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KASUR SEDANG</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Ukuruan 120.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">95k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Kasur Sedang (95k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
+            <!-- Package 9 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-bed"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KASUR BESAR</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Ukuran 180.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">110k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Kasur Besar (110k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
+            <!-- Package 10 -->
+            <div class="bg-gray-50 rounded-[2rem] p-8 text-center hover:bg-dark hover:text-white transition duration-500 group border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-gray-400 group-hover:text-primary mb-4 text-3xl transition"><i class="fa-solid fa-bed"></i></div>
+                <h3 class="font-bebas text-4xl mb-1 tracking-wider text-dark group-hover:text-white transition">KASUR MEWAH</h3>
+                <p class="text-xs text-gray-500 mb-6 group-hover:text-gray-400">Ukuruan 200.</p>
+                <div class="text-4xl font-bold mb-8 text-primary group-hover:text-primary transition">150k</div>
+                <button onclick="document.getElementById('pilih_paket').value='Kasur Mewah (150k)'; document.getElementById('booking').scrollIntoView();" class="inline-block w-full py-4 rounded-full border border-gray-300 text-sm font-bold group-hover:border-primary group-hover:bg-primary transition uppercase tracking-wider">Pesan</button>
+            </div>
+            
         </div>
     </section>
 
@@ -319,11 +450,23 @@
                                 <select id="pilih_paket" required
                                     class="w-full bg-gray-50 border border-gray-100 rounded-xl px-4 py-3.5 text-sm focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition font-medium text-dark appearance-none cursor-pointer">
                                     <option value="">-- Pilih Paket --</option>
-                                    <option value="Small Car (70k)">Small Car - 70k</option>
-                                    <option value="Car (75k)">Car - 75k</option>
-                                    <option value="Medium Car (80k)">Medium Car - 80k</option>
-                                    <option value="Large Car (90k)">Large Car - 90k</option>
-                                    <option value="Luxury Car (100k)">Luxury Car - 100k</option>
+                                    <option value="Mobil Kecil (55k)">Mobil Kecil - 55k</option>
+                                    <option value="Mobil (65k)">Mobil - 65k</option>
+                                    <option value="Mobil Sedang (75k)">Mobil Sedang - 75k</option>
+                                    <option value="Mobil Besar (85k)">Mobil Besar - 85k</option>
+                                    <option value="Mobil Mewah (95k)">Mobil Mewah - 95k</option>
+                                   <option value="Motor Kecil (20k)">Motor Kecil - 20k</option>
+                                    <option value="Motor Besar (35k)">Motor Besar - 35k</option>
+                                    <option value="Sofa Kecil (50k)">Sofa Kecil - 50k</option>
+                                    <option value="Sofa Besar (80k)">Sofa Besar - 80k</option>
+                                    <option value="Kursi (45k)">Kursi - 45k</option>
+                                    <option value="Karpet Kecil (70k)">Karpet Kecil - 70k</option>
+                                    <option value="Karpet Sedang (90k)">Karpet Sedang - 90k</option>
+                                    <option value="Karpet Besar (110k)">Karpet Besar - 110k</option>
+                                    <option value="Kasur Kecil (75k)">Kasur Kecil - 75k</option>
+                                    <option value="Kasur Sedang (95k)">Kasur Sedang - 95k</option>
+                                    <option value="Kasur Besar (110k)">Kasur Besar - 110k</option>
+                                    <option value="Kasur Mewah (150k)">Kasur Mewah - 150k</option>
                                 </select>
                             </div>
                         </div>
@@ -349,8 +492,7 @@
 
                         <div class="pt-2">
                             <button type="submit" class="w-full bg-primary hover:bg-primaryHover text-white font-bold py-4 rounded-xl transition duration-300 shadow-lg shadow-primary/30 flex items-center justify-center gap-3 group">
-                                <span class="uppercase tracking-widest text-sm">Kirim via WhatsApp</span>
-                                <i class="fa-brands fa-whatsapp text-lg group-hover:scale-125 transition-transform"></i>
+                                <span class="uppercase tracking-widest text-sm">Booking</span>
                             </button>
                         </div>
 
@@ -401,29 +543,31 @@
         function kirimWA(e) {
             e.preventDefault();
 
-            const noWA = "62811860638";
-            
             const nama = document.getElementById("nama").value;
             const alamat = document.getElementById("alamat").value;
             const tanggal = document.getElementById("tanggal").value;
             const jam = document.getElementById("jam").value;
             const paket = document.getElementById("pilih_paket").value;
 
-            // Format tanggal Indonesia
-            const tglFormatted = new Date(tanggal).toLocaleDateString("id-ID", {
-                weekday: 'long',
+            const orderNumber = "MCW" + Date.now();
+
+            const tgl = new Date(tanggal);
+            const hari = tgl.toLocaleDateString("id-ID", { weekday: "long" });
+            const tanggalFull = tgl.toLocaleDateString("id-ID", {
                 day: "numeric",
                 month: "long",
                 year: "numeric"
             });
 
-            // Template pesan
-            const pesan = `Halo Admin Mami Carwash 👋\n\nSaya ingin booking layanan:\n\n*Nama:* ${nama}\n*Alamat:* ${alamat}\n*Tanggal:* ${tglFormatted}\n*Jam:* ${jam}\n*Paket:* ${paket}\n\nMohon konfirmasinya yaa 🙏`;
+            let hargaMatch = paket.match(/\((\d+)k\)/i);
+            let total = hargaMatch ? parseInt(hargaMatch[1]) * 1000 : 0;
 
-            // Redirect ke WA
-            const url = `https://wa.me/${noWA}?text=${encodeURIComponent(pesan)}`;
-            window.open(url, '_blank');
+            // 👉 redirect ke invoice
+            const linkInvoice = `invoice.html?order=${orderNumber}&nama=${encodeURIComponent(nama)}&alamat=${encodeURIComponent(alamat)}&paket=${encodeURIComponent(paket)}&hari=${hari}&jam=${jam}&tanggal=${encodeURIComponent(tanggalFull)}&total=${total}`;
+
+            window.location.href = linkInvoice;
         }
+
     </script>
 </body>
 </html>
